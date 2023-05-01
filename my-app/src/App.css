@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: auto;
+    width: 1200px;
+}
+.mainWrapper {
+    width: 100%;
+    height: 900px;
+    background: linear-gradient(to left,rgb(62, 174, 239),rgb(231, 46, 46),rgb(238, 33, 238));
+}
+
+.wrapper {
+    padding-top: 60px;
+}
+
+.heading {
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+}
+.cardWrap {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cardOne {
+    width: 380px;
+    height: 520px;
+    background: aliceblue;
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 0px 0px 12px 6px rgb(58, 169, 233);
+}
+
+.cardOne_img img {
+    margin-left: 21px;
+    margin-top: 20px;
+    width: 340px;
+}
+
+.cardOne_heading {
+    text-align: center;
+    margin-top: 12px;
+    color: rgb(58, 169, 233);
+}
+
+.cardOne_text {
+    width: 330px;
+    margin-left: 21px;
+    text-align: center;
+    margin-top: 10px;
+}
+.cardOne_btn button {
+    border-radius: 22px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    padding: 10px 120px 10px 120px;
+    color: #fff;
+    background-color: rgb(46, 165, 234);
+    border: 1px solid blue;
+}
+
+.cardTwo {
+    width: 380px;
+    height: 520px;
+    background: aliceblue;
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 0px 0px 12px 6px rgb(209, 37, 37);
+    margin-left: 30px;
+}
+
+.cardTwo_img img {
+    margin-left: 21px;
+    margin-top: 20px;
+    width: 340px;
+    height: 190px;
+}
+
+.cardTwo_heading {
+    text-align: center;
+    margin-top: 12px;
+    color: rgb(209, 37, 37);
+}
+
+.cardTwo_text {
+    width: 330px;
+    margin-left: 21px;
+    text-align: center;
+    margin-top: 10px;
+}
+.cardTwo_btn button {
+    border-radius: 22px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    padding: 10px 120px 10px 120px;
+    color: #fff;
+    background-color:rgb(209, 37, 37);
+    border: 1px solid rgb(121, 7, 7);
+}
+
+.cardTre {
+    width: 380px;
+    height: 520px;
+    background: aliceblue;
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 0px 0px 12px 6px rgb(206, 16, 206);
+    margin-left: 30px;
+}
+
+.cardTre_img img {
+    margin-left: 21px;
+    margin-top: 20px;
+    width: 340px;
+}
+
+.cardTre_heading {
+    text-align: center;
+    margin-top: 12px;
+    color: rgb(206, 16, 206);
+}
+
+.cardTre_text {
+    width: 330px;
+    margin-left: 21px;
+    text-align: center;
+    margin-top: 10px;
+}
+.cardTre_btn button {
+    border-radius: 22px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    padding: 10px 120px 10px 120px;
+    color: #fff;
+    background-color:rgb(206, 16, 206);
+    border: 1px solid rgb(89, 5, 89);
+}
